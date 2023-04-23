@@ -1,0 +1,111 @@
+.app {
+    max-width: 900px;
+    margin: 20px auto 80px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 850px) {
+    main .blog-content {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 800px) {
+    .info-and-edit .btns {
+        width: 100%;
+        margin-block: 5px;
+    }
+    .info-and-edit .delete-btn, .info-and-edit .edit-btn {
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    main .blog-content {
+        font-size: max(2vw, 0.8em);
+    }
+}
+
+@media (max-width: 600px) {
+    nav a:not(.logo), main {
+        font-size: 0.85em;
+    }
+    .blog {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .blog-info {
+        font-size: 1.15em;
+    }
+    .blog-img-container {
+        height: unset;
+    }
+    .blog-img-container img {
+        max-height: 200px;
+    }
+    .blog-desc {
+        font-size: 1.2em;
+    }
+    .login input,.login .submit, 
+    .signup input,.signup .submit, 
+    .change-password input,.change-password .submit, 
+    .edit-profile input,.edit-profile .submit, .edit-profile .add-bio, 
+    .criteria {
+        width: 90%;
+    }
+    .post-count {
+        margin-block: 15px 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .info-and-edit .btns {
+        flex-wrap: wrap;
+        margin-block: 10px;
+    }
+    .edit-btn, .delete-btn {
+        width: 100%;
+    }
+    .profile .header {
+        font-size: 0.75em;
+    }
+    .profile .author-info {
+        margin-left: 10px;
+    }
+    hr {
+        margin-top: 30px;
+    }
+    .profile nav {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    nav {
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        width: 100%;
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    .logo + a {
+        margin-left: unset;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile .btns {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

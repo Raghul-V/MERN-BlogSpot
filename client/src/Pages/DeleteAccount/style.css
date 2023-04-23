@@ -1,0 +1,22 @@
+.delete-profile .title {
+    text-align: center;
+}
+
+.delete-profile .info {
+    margin: 10px auto 40px;
+    line-height: 1.5em;
+    width: 80%;
+    font-size: 1.05em;
+    max-width: 600px;
+}
+
+.del-acc-btn {
+    background-color: #d44;
+    outline: none;
+    border: 2.4px solid #c33;
+}
+
+.del-acc-btn:active {
+    background-color: #c33;
+}
+

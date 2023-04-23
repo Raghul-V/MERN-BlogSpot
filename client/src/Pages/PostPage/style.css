@@ -1,0 +1,86 @@
+.post-page .thumbnail {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.post-page .post-title {
+    margin-bottom: 35px;
+}
+
+.post-page .name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.post-page .username, .time {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.author-info {
+    margin-right: 25px;
+}
+
+.info-and-edit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.info-and-edit .btns {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    font-size: 1.05em;
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-btn {
+    background-color: #d44;
+}
+
+.info-and-edit svg {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.edit-btn:active {
+    background-color: #444;
+}
+
+.delete-btn:active {
+    background-color: #c33;
+}
+
+.post-content {
+    margin-top: 50px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.post-content h1, .post-content h2 {
+    line-height: 1.2em;
+}
+

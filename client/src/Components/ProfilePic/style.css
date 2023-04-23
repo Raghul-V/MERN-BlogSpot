@@ -1,0 +1,9 @@
+.profile-pic img {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+

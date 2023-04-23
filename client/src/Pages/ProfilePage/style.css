@@ -1,0 +1,62 @@
+.profile .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.profile .profile-pic {
+    width: 8em;
+    height: 8em;
+}
+
+.profile .author-info .bio {
+    font-size: 1.3em;
+    margin-block: 1em 1em;
+    max-width: 85%;
+}
+
+hr {
+    border: none;
+    border-bottom: 1.5px solid #aaa;
+    margin-top: 20px;
+}
+
+.post-count {
+    text-align: center;
+    margin-block: 25px 50px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.profile .header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: flex-start;
+}
+
+.profile .author-info {
+    margin-left: 15px;
+    margin-top: 1.7em;
+}
+
+.profile .author-info p {
+    margin: 0;
+}
+
+.profile .author-info .name {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile .author-info .username {
+    font-size: 1.3em;
+}
+
+.profile .btns {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+

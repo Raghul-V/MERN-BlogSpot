@@ -1,0 +1,22 @@
+.create-post input, .create-post .submit, .quill,
+.edit-post input, .edit-post .submit, .quill {
+    width: 100%;
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+.ql-container {
+    min-height: 180px;
+}
+
+.ql-snow .ql-formats {
+    display: flex !important;
+    gap: 5px;
+    margin-bottom: 3px;
+    float: left;
+}
+
+.submit:disabled {
+    opacity: 0.5;
+}
+

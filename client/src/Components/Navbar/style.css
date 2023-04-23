@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.logo + a {
+    margin-left: auto;
+}
+
+nav a:not(.logo) {
+    margin-top: 5px;
+}

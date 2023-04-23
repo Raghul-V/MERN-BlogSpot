@@ -1,0 +1,53 @@
+.edit-profile main {
+    text-align: center;
+}
+
+.add-bio {
+    resize: vertical;
+    font-family: inherit;
+    min-height: 6em;
+}
+
+.add-bio::-webkit-scrollbar {
+    width: 12px;
+}
+
+.add-profile-pic, .change-pw-btn, .del-profile-pic {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 8px 10px;
+    background: #ccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.05em;
+    max-width: 230px;
+    cursor: pointer;
+}
+
+.del-profile-pic {
+    margin-bottom: 15px;
+    background-color: #d44;
+    color: #eee;
+}
+
+.add-profile-pic:active, .change-pw-btn:active {
+    background: #bbb;
+}
+
+.add-profile-pic {
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.edit-profile .profile-pic {
+    width: 10em;
+    height: 10em;
+    margin: auto;
+}
+
+.profile-img-container input {
+    display: none;
+}
+
+

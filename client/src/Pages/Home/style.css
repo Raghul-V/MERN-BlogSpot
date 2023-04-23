@@ -1,0 +1,9 @@
+.home nav {
+    margin-block: 100px 80px;
+}
+
+.home main {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}

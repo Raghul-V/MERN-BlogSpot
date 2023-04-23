@@ -1,0 +1,37 @@
+.blog {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    gap: 30px;
+}
+
+.blog-img-container {
+    height: 270px;
+}
+
+.blog-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-title {
+    font-size: 2em;
+    margin-block: 5px 15px;
+}
+
+.blog-info {
+    color: #888;
+    margin: 0 0 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+}
+
+.blog-info .author {
+    color: #444;
+}
+
+.blog-desc {
+    line-height: 1.3em;
+}
