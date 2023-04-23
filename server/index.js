@@ -9,9 +9,10 @@ const multer = require("multer");
 const { GridFsStorage } = require("multer-gridfs-storage");
 const fs = require("fs");
 
-const DATABASE = process.env.DATABASE;
-const SECRET_KEY = process.env.SECRET_KEY;
-const APP_URL = "https://blogspot-mern.netlify.app";
+const DATABASE = process.env.DATABASE || "mongodb://localhost/testdb";
+const SECRET_KEY = process.env.SECRET_KEY || "e8gW36Uvk0Ya1pN";
+// const APP_URL = "https://blogspot-mern.netlify.app";
+const APP_URL = "http://localhost:3000";
 const PORT = 4000;
 
 const app = express();
