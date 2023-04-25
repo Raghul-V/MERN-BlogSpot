@@ -28,8 +28,10 @@ This application is running live on [https://blogspot-mern.netlify.app](https://
 To start the app,<br>
 
 
-1. run `npm i && node index.js` for server side <br>
-2. run `npm i && npm start` for client side <br>
+1. In client/src/config.js SET API_URL to `http://localhost:4000`
+2. In server/index.js SET APP_URL to `http://localhost:3000`
+3. run `npm i && node index.js` for server side <br>
+4. run `npm i && npm start` for client side <br>
 
 
 The application will now be running on `http://localhost:4000`
